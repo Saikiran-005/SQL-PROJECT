@@ -43,7 +43,7 @@ Maps employees to their respective projects.
 SELECT e.name, p.project_name
 FROM Employees e
 JOIN Employee_Projects ep ON e.employee_id = ep.employee_id
-JOIN Projects p ON ep.project_id = p.project_id;<img width="1920" height="1200" alt="Screenshot 2026-03-17 134651" src="https://github.com/user-attachments/assets/25f70524-36c7-4052-bf3a-a0a758ec0e3b" />
+JOIN Projects p ON ep.project_id = p.project_id;
 ```
 ### 2️⃣ Employee Attrition Rate
 ```sql
