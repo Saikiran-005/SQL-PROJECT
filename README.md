@@ -67,3 +67,6 @@ JOIN Departments d ON e.department_id = d.department_id
 JOIN Salaries s ON e.employee_id = s.employee_id
 GROUP BY d.department_name;
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Saikiran-005/SQL-PROJECT/main/Screenshot%202026-03-17%20134552.png" width="600"/>
+</p>
