@@ -55,7 +55,9 @@ SELECT
     COUNT(CASE WHEN attrition = 'Yes' THEN 1 END) * 100.0 / COUNT(*) AS attrition_rate
 FROM Employees;
 ```
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Saikiran-005/SQL-PROJECT/main/Screenshot%202026-03-17%20134730.png" width="600"/>
+</p>
 ###3️⃣ Department-wise Highest Salary
 
 ```sql
